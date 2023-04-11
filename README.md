@@ -67,4 +67,4 @@ Outros – R$19.849,53
 
 Escreva um programa na linguagem que desejar onde calcule o percentual de representação que cada estado teve dentro do valor total mensal da distribuidora.
  
-### Solução JAVA: [Porcentagem de faturamento por estado](https://github.com/Rene-Antunes/estagio-target-sistemas/blob/main/estagio-target/src/main/java/Questao_4.java)
+### Solução JAVA: [Percentual de faturamento por estado](https://github.com/Rene-Antunes/estagio-target-sistemas/blob/main/estagio-target/src/main/java/Questao_4.java)
