@@ -53,8 +53,18 @@ Esse número pode ser informado através de qualquer entrada de sua preferência
 
   b) Podem existir dias sem faturamento, como nos finais de semana e feriados. Estes dias devem ser ignorados no cálculo da média;
 
-### Solução JAVA: [Estátisticas de venda](https://github.com/Rene-Antunes/estagio-target-sistemas/blob/main/estagio-target/src/main/java/Questao_3.java)
+### Solução JAVA: [Estátisticas distribuidora](https://github.com/Rene-Antunes/estagio-target-sistemas/blob/main/estagio-target/src/main/java/Questao_3.java)
 
+**Questão 4**
 
+4) Dado o valor de faturamento mensal de uma distribuidora, detalhado por estado:
 
+SP – R$67.836,43
+RJ – R$36.678,66
+MG – R$29.229,88
+ES – R$27.165,48
+Outros – R$19.849,53
 
+Escreva um programa na linguagem que desejar onde calcule o percentual de representação que cada estado teve dentro do valor total mensal da distribuidora.
+ 
+### Solução JAVA: [Porcentagem de faturamento por estado](https://github.com/Rene-Antunes/estagio-target-sistemas/blob/main/estagio-target/src/main/java/Questao_4.java)
