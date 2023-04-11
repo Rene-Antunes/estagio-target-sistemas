@@ -26,7 +26,7 @@ Ao final do processamento, qual será o valor da variável SOMA?
 
 Resultado: SOMA : 91
 
-Solução: [Resultado da SOMA]
+Solução: [Resultado da SOMA](https://github.com/Rene-Antunes/estagio-target-sistemas/blob/main/estagio-target/src/main/java/Questao_1.java)
 
 
 
