@@ -1,0 +1,21 @@
+[	{
+		"estado": "SP" ,
+		"ganho": 67836.43
+	},
+	{
+		"estado": "RJ" ,
+		"ganho": 36678.66
+	},
+	{
+		"estado": "MG" ,
+		"ganho": 29229.88
+	},
+	{
+		"estado": "ES" ,
+		"ganho": 27165.48
+	},
+	{
+		"estado": "Outros" ,
+		"ganho": 19849.53
+	}	
+]
