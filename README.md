@@ -68,3 +68,18 @@ Outros – R$19.849,53
 Escreva um programa na linguagem que desejar onde calcule o percentual de representação que cada estado teve dentro do valor total mensal da distribuidora.
  
 ### Solução JAVA: [Percentual de faturamento por estado](https://github.com/Rene-Antunes/estagio-target-sistemas/blob/main/estagio-target/src/main/java/Questao_4.java)
+
+**Questão 5**
+
+5) Escreva um programa que inverta os caracteres de um string.
+
+IMPORTANTE:
+
+a) Essa string pode ser informada através de qualquer entrada de sua preferência ou pode ser previamente definida no código;
+
+b) Evite usar funções prontas, como, por exemplo, reverse;
+
+### Solução JAVA: [Reverter String](https://github.com/Rene-Antunes/estagio-target-sistemas/blob/main/estagio-target/src/main/java/Questao_5.java)
+
+
+
