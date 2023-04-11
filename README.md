@@ -129,6 +129,14 @@ a) Essa string pode ser informada através de qualquer entrada de sua preferênc
 
 b) Evite usar funções prontas, como, por exemplo, reverse;
 
+Resultado:  
+ +-----------------------------+
+Taget Sistemas
+
+sametsiS tegaT
+
++-----------------------------+
+
 ### Solução JAVA: [Reverter String](https://github.com/Rene-Antunes/estagio-target-sistemas/blob/main/estagio-target/src/main/java/Questao_5.java)
 
 
