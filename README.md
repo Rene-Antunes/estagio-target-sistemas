@@ -54,6 +54,28 @@ Esse número pode ser informado através de qualquer entrada de sua preferência
   a) Usar o json ou xml disponível como fonte dos dados do faturamento mensal;
 
   b) Podem existir dias sem faturamento, como nos finais de semana e feriados. Estes dias devem ser ignorados no cálculo da média;
+  
+ Resultado:  
+ 
+ Maior faturamento
+ 
+ Dia: 16 
+ 
+ Valor: 373,78
+
++-----------------------------+
+|  Menor faturamento          |
+|                             |
+|   Dia: 20                   |     
+|                             |
+|  Valor: 48924,24            |     
+|                             |
+|  Valor total de faturamento | 
+|                             | 
+|  soma total: 438.172,77     | 
+|                             | 
+|  Dias superiores a média: 12|
++-----------------------------+
 
 ### Solução JAVA: [Estátisticas distribuidora](https://github.com/Rene-Antunes/estagio-target-sistemas/blob/main/estagio-target/src/main/java/Questao_3.java)
 ---
