@@ -131,6 +131,7 @@ b) Evite usar funções prontas, como, por exemplo, reverse;
 
 Resultado:  
  +-----------------------------+
+ 
 Taget Sistemas
 
 sametsiS tegaT
