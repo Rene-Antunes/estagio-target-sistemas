@@ -99,6 +99,23 @@ ES – R$27.165,48
 Outros – R$19.849,53
 
 Escreva um programa na linguagem que desejar onde calcule o percentual de representação que cada estado teve dentro do valor total mensal da distribuidora.
+
+Resultado:  
+ +-----------------------------+
+ 
+Percentual de ganhos por estado: 
+
+ Porcetagem: 37,53%
+ 
+ Porcetagem: 20,29%
+ 
+ Porcetagem: 16,17%
+ 
+ Porcetagem: 15,03%
+ 
+ Porcetagem: 10,98%
+
++-----------------------------+
  
 ### Solução JAVA: [Percentual de faturamento por estado](https://github.com/Rene-Antunes/estagio-target-sistemas/blob/main/estagio-target/src/main/java/Questao_4.java)
 ---
