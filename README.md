@@ -56,6 +56,7 @@ Esse número pode ser informado através de qualquer entrada de sua preferência
   b) Podem existir dias sem faturamento, como nos finais de semana e feriados. Estes dias devem ser ignorados no cálculo da média;
   
  Resultado:  
+ +-----------------------------+
  
  Maior faturamento
  
@@ -70,6 +71,8 @@ Menor faturamento
 Dia: 20                   
 
 Valor: 48924,24   
+
++-----------------------------+
 
 Valor total de faturamento
 
