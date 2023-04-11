@@ -5,6 +5,7 @@ Para este fim usei a linguagem JAVA.
 
 ## Soluções:
 
+**Questão 1**
 Observe o trecho de código abaixo:
 
 int INDICE = 13, SOMA = 0, K = 0;
@@ -19,5 +20,8 @@ imprimir(SOMA);
 
 Ao final do processamento, qual será o valor da variável SOMA?
 
-**Resultado: SOMA : 91**
+Resultado: SOMA : 91
+Solução: [Resultado da SOMA]
+
+
 
