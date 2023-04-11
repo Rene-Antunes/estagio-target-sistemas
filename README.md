@@ -26,7 +26,7 @@ Ao final do processamento, qual será o valor da variável SOMA?
 
 Resultado: SOMA : 91
 
-## Solução JAVA: [Resultado da SOMA](https://github.com/Rene-Antunes/estagio-target-sistemas/blob/main/estagio-target/src/main/java/Questao_1.java)
+### Solução JAVA: [Resultado da SOMA](https://github.com/Rene-Antunes/estagio-target-sistemas/blob/main/estagio-target/src/main/java/Questao_1.java)
 
 **Questão 2**
 
@@ -35,7 +35,7 @@ Resultado: SOMA : 91
 IMPORTANTE:
 Esse número pode ser informado através de qualquer entrada de sua preferência ou pode ser previamente definido no código;
 
-## Solução JAVA: [Resultado Fibonacci](https://github.com/Rene-Antunes/estagio-target-sistemas/blob/main/estagio-target/src/main/java/Questao_2.java)
+### Solução JAVA: [Resultado Fibonacci](https://github.com/Rene-Antunes/estagio-target-sistemas/blob/main/estagio-target/src/main/java/Questao_2.java)
 
 
 
