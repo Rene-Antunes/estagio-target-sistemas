@@ -65,15 +65,25 @@ Esse número pode ser informado através de qualquer entrada de sua preferência
 
 +-----------------------------+
 |  Menor faturamento          |
+
 |                             |
+
 |   Dia: 20                   |     
+
 |                             |
+
 |  Valor: 48924,24            |     
+
 |                             |
+
 |  Valor total de faturamento | 
+
 |                             | 
+
 |  soma total: 438.172,77     | 
+
 |                             | 
+
 |  Dias superiores a média: 12|
 +-----------------------------+
 
