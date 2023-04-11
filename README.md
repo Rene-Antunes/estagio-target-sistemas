@@ -38,7 +38,7 @@ IMPORTANTE:
 Esse número pode ser informado através de qualquer entrada de sua preferência ou pode ser previamente definido no código;
 
 ### Solução JAVA: [Resultado Fibonacci](https://github.com/Rene-Antunes/estagio-target-sistemas/blob/main/estagio-target/src/main/java/Questao_2.java)
-
+---
 **Questão 3**
 
 3) Dado um vetor que guarda o valor de faturamento diário de uma distribuidora, faça um programa, na linguagem que desejar, que calcule e retorne:
@@ -56,7 +56,7 @@ Esse número pode ser informado através de qualquer entrada de sua preferência
   b) Podem existir dias sem faturamento, como nos finais de semana e feriados. Estes dias devem ser ignorados no cálculo da média;
 
 ### Solução JAVA: [Estátisticas distribuidora](https://github.com/Rene-Antunes/estagio-target-sistemas/blob/main/estagio-target/src/main/java/Questao_3.java)
-
+---
 **Questão 4**
 
 4) Dado o valor de faturamento mensal de uma distribuidora, detalhado por estado:
@@ -74,7 +74,7 @@ Outros – R$19.849,53
 Escreva um programa na linguagem que desejar onde calcule o percentual de representação que cada estado teve dentro do valor total mensal da distribuidora.
  
 ### Solução JAVA: [Percentual de faturamento por estado](https://github.com/Rene-Antunes/estagio-target-sistemas/blob/main/estagio-target/src/main/java/Questao_4.java)
-
+---
 **Questão 5**
 
 5) Escreva um programa que inverta os caracteres de um string.
