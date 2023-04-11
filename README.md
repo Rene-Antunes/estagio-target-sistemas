@@ -64,27 +64,17 @@ Esse número pode ser informado através de qualquer entrada de sua preferência
  Valor: 373,78
 
 +-----------------------------+
-|  Menor faturamento          |
+Menor faturamento
 
-|                             |
+Dia: 20                   
 
-|   Dia: 20                   |     
+Valor: 48924,24   
 
-|                             |
+Valor total de faturamento
 
-|  Valor: 48924,24            |     
+soma total: 438.172,77 
 
-|                             |
-
-|  Valor total de faturamento | 
-
-|                             | 
-
-|  soma total: 438.172,77     | 
-
-|                             | 
-
-|  Dias superiores a média: 12|
+Dias superiores a média: 12
 +-----------------------------+
 
 ### Solução JAVA: [Estátisticas distribuidora](https://github.com/Rene-Antunes/estagio-target-sistemas/blob/main/estagio-target/src/main/java/Questao_3.java)
