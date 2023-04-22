@@ -15,7 +15,7 @@ import model.EstatisticaVenda;
 
 public class Questao_4_Helper {
 
-	public static void getPercentual(Collection<EstatisticaVenda> estatisticas, List<Double> valores) {
+	public void getPercentual(Collection<EstatisticaVenda> estatisticas, List<Double> valores) {
 		Double ganhoTotal = ganhoTotal(estatisticas);
 		
 		for (Double valor : valores) {
@@ -25,7 +25,7 @@ public class Questao_4_Helper {
 		}
 	}
 
-	public static Collection<EstatisticaVenda> getJsonToList(Gson gson, String file) throws FileNotFoundException {
+	public Collection<EstatisticaVenda> getJsonToList(Gson gson, String file) throws FileNotFoundException {
 		
 		BufferedReader br = new BufferedReader(new FileReader(file));
 		
@@ -34,7 +34,7 @@ public class Questao_4_Helper {
 		return dadosDiarios;
 	}
 
-	public static List<Double> getValoresToList(Collection<EstatisticaVenda> valores) {
+	public List<Double> getValoresToList(Collection<EstatisticaVenda> valores) {
 		List<Double> ganhosLista = new ArrayList<>();
 		valores.forEach((valor) -> {
 			Double ganhos = valor.getGanho();
@@ -44,7 +44,7 @@ public class Questao_4_Helper {
 		return ganhosLista;
 	}
 
-	public static Double ganhoTotal(Collection<EstatisticaVenda> dadosDiarios) {
+	public Double ganhoTotal(Collection<EstatisticaVenda> dadosDiarios) {
 		List<Double> ganhosLista = getValoresToList(dadosDiarios);
 		Double soma = ganhosLista.stream()
 				.reduce(0.0, Double::sum);
