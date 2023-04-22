@@ -18,7 +18,7 @@ public class Questao_3_Helper {
 	
 	
 
-	public static void getDiasSuprioresAmedia(List<Double> ganhosDiarios) {
+	public void getDiasSuprioresAmedia(List<Double> ganhosDiarios) {
 		Double media = ganhosDiarios.stream().mapToDouble((n)-> n ).average().getAsDouble();
 		int diasSuperioresAMedia = 0;
 		for (Double valor : ganhosDiarios) {
@@ -29,7 +29,7 @@ public class Questao_3_Helper {
 		System.out.println("Dias superiores a média: "+ diasSuperioresAMedia);
 	}
 
-	public static void ganhoTotal(Collection<DadosDiarios> dadosDiarios) {
+	public void ganhoTotal(Collection<DadosDiarios> dadosDiarios) {
 		List<Double> ganhosLista = getValoresToList(dadosDiarios);
 		Double soma = ganhosLista.stream()
 				.reduce(0.0, Double::sum);
@@ -38,17 +38,19 @@ public class Questao_3_Helper {
 		System.out.println(" soma total: "+df.format(soma));
 	}
 
-	public static void getMaiorValor(Collection<DadosDiarios> dadosDiarios, Comparator<DadosDiarios> filtroValor) {
+	public void getMaiorValor(Collection<DadosDiarios> dadosDiarios,
+			Comparator<DadosDiarios> filtroValor) {
 		DadosDiarios menorValor = dadosDiarios.stream().min(filtroValor).get();
 		System.out.println(menorValor);
 	}
 
-	public static void getMenorValor(Collection<DadosDiarios> dadosDiarios, Comparator<DadosDiarios> filtroValor) {
+	public void getMenorValor(Collection<DadosDiarios> dadosDiarios,
+			Comparator<DadosDiarios> filtroValor) {
 		DadosDiarios maiorValor = dadosDiarios.stream().max(filtroValor).get();
 		System.out.println(maiorValor);
 	}
 
-	public static List<Double> getValoresToList(Collection<DadosDiarios> valores) {
+	public List<Double> getValoresToList(Collection<DadosDiarios> valores) {
 		List<Double> ganhosLista = new ArrayList<>();
 		valores.forEach((valor) -> {
 			Double ganhos = valor.getValor();
@@ -58,7 +60,7 @@ public class Questao_3_Helper {
 		return ganhosLista;
 	}
 
-	public static Collection<DadosDiarios> getJsonToList(Gson gson, String file) throws FileNotFoundException {
+	public Collection<DadosDiarios> getJsonToList(Gson gson, String file) throws FileNotFoundException {
 		BufferedReader br = new BufferedReader(new FileReader(file));
 		
 		TypeToken<Collection<DadosDiarios>> collectionType = new TypeToken<Collection<DadosDiarios>>(){};
@@ -66,7 +68,7 @@ public class Questao_3_Helper {
 		return dadosDiarios;
 	}
 
-	public static Comparator<DadosDiarios> compararValores() {
+	public Comparator<DadosDiarios> compararValores() {
 		Comparator<DadosDiarios> filtroValor = (valor1, valor2) -> {
 			if (valor1.getValor() > 0 &  valor2.getValor() > 0) {
 				if (valor1.getValor() > valor2.getValor()) {
