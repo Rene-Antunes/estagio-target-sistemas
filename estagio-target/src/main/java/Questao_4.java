@@ -11,18 +11,18 @@ import model.EstatisticaVenda;
 public class Questao_4 {
 	
 	public static void main(String[] args) {
+		Questao_4_Helper questao_4_Helper = new Questao_4_Helper();
 		Gson gson = new Gson();
 		try {
-			Collection<EstatisticaVenda> estatisticas = Questao_4_Helper.getJsonToList(gson , "src/main/java/json/EstatisticaDeVenda.json");
-			List<Double> valores = Questao_4_Helper.getValoresToList(estatisticas);
+			Collection<EstatisticaVenda> estatisticas = questao_4_Helper.getJsonToList(gson , "src/main/java/json/EstatisticaDeVenda.json");
+			List<Double> valores = questao_4_Helper.getValoresToList(estatisticas);
 			
 			System.out.println("Percentual de ganhos por estado: \n");
 			
-			Questao_4_Helper.getPercentual(estatisticas, valores);
+			questao_4_Helper.getPercentual(estatisticas, valores);
 				
 			} catch (FileNotFoundException e) {
 				e.printStackTrace();
-			}
-		
-		}
+	 		}
+	}
 }
