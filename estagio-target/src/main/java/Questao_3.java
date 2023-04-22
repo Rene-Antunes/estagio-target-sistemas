@@ -10,25 +10,25 @@ import model.DadosDiarios;
 
 public class Questao_3{
 	public static void main(String[] args) {
+		Questao_3_Helper questao_3_Helper = new Questao_3_Helper();
 		Gson gson = new Gson();
 		try {
-			
-			Collection<DadosDiarios> dadosDiarios = Questao_3_Helper.getJsonToList(gson , "src/main/java/json/dados.json");
-			Comparator<DadosDiarios> comparador = Questao_3_Helper.compararValores();
-			List<Double> ganhosDiarios = Questao_3_Helper.getValoresToList(dadosDiarios);
+			Collection<DadosDiarios> dadosDiarios = questao_3_Helper.getJsonToList(gson , "src/main/java/json/dados.json");
+			Comparator<DadosDiarios> comparador = questao_3_Helper.compararValores();
+			List<Double> ganhosDiarios = questao_3_Helper.getValoresToList(dadosDiarios);
 
 			System.out.println("Maior faturamento");
-			Questao_3_Helper.getMaiorValor(dadosDiarios, comparador);
+			questao_3_Helper.getMaiorValor(dadosDiarios, comparador);
 			System.out.println();
 			
 			System.out.println("Menor faturamento");
-			Questao_3_Helper.getMenorValor(dadosDiarios, comparador);
+			questao_3_Helper.getMenorValor(dadosDiarios, comparador);
 			System.out.println();
 
 			System.out.println("Valor total de faturamento");
-			Questao_3_Helper.ganhoTotal(dadosDiarios);
+			questao_3_Helper.ganhoTotal(dadosDiarios);
 			System.out.println();
-			Questao_3_Helper.getDiasSuprioresAmedia(ganhosDiarios);
+			questao_3_Helper.getDiasSuprioresAmedia(ganhosDiarios);
 			
 		} catch (IOException e) {
 			e.printStackTrace();
